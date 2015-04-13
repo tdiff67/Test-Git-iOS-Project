@@ -14,6 +14,7 @@
 		A8712DAD1ADB3FD200C04DAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8712DAC1ADB3FD200C04DAF /* Images.xcassets */; };
 		A8712DB01ADB3FD200C04DAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8712DAE1ADB3FD200C04DAF /* LaunchScreen.xib */; };
 		A8712DBC1ADB3FD200C04DAF /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8712DBB1ADB3FD200C04DAF /* Git_TestTests.m */; };
+		A8712DC71ADB45DA00C04DAF /* TDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8712DC61ADB45DA00C04DAF /* TDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A8712DB51ADB3FD200C04DAF /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8712DBA1ADB3FD200C04DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8712DBB1ADB3FD200C04DAF /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		A8712DC51ADB45DA00C04DAF /* TDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTest.h; sourceTree = "<group>"; };
+		A8712DC61ADB45DA00C04DAF /* TDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A8712DAC1ADB3FD200C04DAF /* Images.xcassets */,
 				A8712DAE1ADB3FD200C04DAF /* LaunchScreen.xib */,
 				A8712D9F1ADB3FD200C04DAF /* Supporting Files */,
+				A8712DC51ADB45DA00C04DAF /* TDTest.h */,
+				A8712DC61ADB45DA00C04DAF /* TDTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				A8712DA81ADB3FD200C04DAF /* ViewController.m in Sources */,
 				A8712DA51ADB3FD200C04DAF /* AppDelegate.m in Sources */,
 				A8712DA21ADB3FD200C04DAF /* main.m in Sources */,
+				A8712DC71ADB45DA00C04DAF /* TDTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
